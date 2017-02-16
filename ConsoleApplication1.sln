@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tt.Aspect", "Tt.Aspect\Tt.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tt.EmitHelper", "Tt.EmitHelper\Tt.EmitHelper.csproj", "{64B7F78E-CA03-4AFF-BAFB-9EB434D647E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tt.ILDebug", "Tt.ILDebug\Tt.ILDebug.csproj", "{318D3C6F-CF81-41A9-AA72-34AD59352A8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{64B7F78E-CA03-4AFF-BAFB-9EB434D647E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64B7F78E-CA03-4AFF-BAFB-9EB434D647E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64B7F78E-CA03-4AFF-BAFB-9EB434D647E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318D3C6F-CF81-41A9-AA72-34AD59352A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318D3C6F-CF81-41A9-AA72-34AD59352A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318D3C6F-CF81-41A9-AA72-34AD59352A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318D3C6F-CF81-41A9-AA72-34AD59352A8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

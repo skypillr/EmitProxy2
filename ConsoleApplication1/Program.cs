@@ -19,8 +19,8 @@ namespace ConsoleApplication1
             var my = (IMyclass)CodeInjection.Create(new MyClassTest(), typeof(IMyclass));
             MethodInfo mf =
             my.GetType().GetMethod("MyClassTestInterface", new Type[0]);
-            var str = mf.Invoke(my, null);
-            Console.WriteLine(str);
+            mf.Invoke(my, null);
+            //Console.WriteLine(str);
             my.MyClassTestInterface();
 
             //CodeInjection.InjectHandler(this.target, 
